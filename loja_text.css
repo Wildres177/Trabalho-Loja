@@ -4,13 +4,12 @@
     background-size: cover;
 
 }
-body{
-    background-image: url(img/img\ tv\ \(3\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 
+.campo #img{
+
+    width: 100%;
 }
+
 .campo #vermelho, #verde, #azul, #voltar, #ciano{
     width: 100px;
     height: 35px;
@@ -24,6 +23,13 @@ nav{
     
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width:1066) {
+
+   
+
+    
 }
 @keyframes vibrar {
     0%{
